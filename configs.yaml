@@ -1,0 +1,16 @@
+data:
+  image_size: 64
+  num_channels: 40
+
+training:
+  batch_size: 16
+  epochs: 50
+  lr: 0.0001
+
+model:
+  name: UNet
+
+paths:
+  data_dir: data/
+  output_dir: outputs/
+  model_dir: models/
